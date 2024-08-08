@@ -700,4 +700,89 @@ span {
   color:white;
 }
 
-/* About Page */
+/* General CSS for the site remains the same */
+
+/* Adjustments for Mobile View */
+
+/* General CSS for the site remains the same */
+
+/* Adjustments for Mobile View */
+
+@media (max-width: 768px) {
+
+  /* Page 3 Mobile Adjustments */
+  .containerpage3 {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .img1, .img2, .img3 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Page 4 Mobile Adjustments */
+
+  /* Make the heading smaller for mobile view */
+  #page4 h1 {
+    font-size: 24px; /* Adjust font size for better visibility */
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  /* Ensure all content is visible and properly aligned */
+  #page4 {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding: 20px;
+  }
+
+  .comparison-container {
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 20px 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .comparison-item {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .comparison-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    word-spacing: normal; /* Ensure normal spacing between words */
+    line-height: 1.2; /* Adjust line height for better readability */
+  }
+
+  .comparison-item p {
+    font-size: 16px;
+    line-height: 1.5; /* Set a consistent line height */
+    text-align: justify; /* Justify text to remove unnecessary gaps */
+    word-spacing: normal; /* Set normal word spacing */
+    hyphens: auto; /* Enable hyphenation to break long words */
+  }
+
+  /* Ensure the grey box is not cut off */
+  .comparison-item {
+    overflow: visible; /* Make sure the content isn't hidden */
+    height: auto; /* Ensure the height adjusts to content */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+}
+
