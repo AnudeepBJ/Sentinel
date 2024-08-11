@@ -1516,7 +1516,7 @@ transition: opacity .3s;
 .page2-info-prod {
   display: flex;
   flex-direction: row;
-  margin-top: 60px;
+  margin-top: 200px;
 }
 
 .page2-box1-prod {
